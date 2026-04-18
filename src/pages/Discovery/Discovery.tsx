@@ -37,7 +37,7 @@ export const Discovery: React.FC = () => {
        // Persistencia asíncrona en Supabase
        try {
          interactionsService.saveInteraction(currentMovie, direction);
-       } catch (err) {
+       } catch (_) {
          console.warn('Fallo persistencia en Supabase, el estado local continuará.');
        }
 

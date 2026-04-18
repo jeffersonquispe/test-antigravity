@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import React, { createContext, useReducer, useEffect, useContext, ReactNode, useMemo } from 'react';
 import type { TMDBMovie } from '../../types/tmdb.types';
 
